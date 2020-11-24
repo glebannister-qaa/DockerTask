@@ -1,4 +1,4 @@
-создать контейнер:
-docker create -t -i eon01/conteiner1 --name conteiner1
+запустить контейнер:
+docker run -it --name container1 -d eon01/container1
 запустить image:
 docker run imagename
