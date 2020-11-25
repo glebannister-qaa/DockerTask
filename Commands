@@ -1,4 +1,9 @@
-запустить контейнер:
-docker run -it --name container1 -d eon01/container1
-запустить image:
-docker run imagename
+1.зайти в директорию, где расположен Dockerfile
+2.открыть в нём консоль
+3.создать имэйдж 
+команда: docker image build -t taskimage .
+4.запустить контейнер
+команда:docker container run -it -p 8080:8080(локалхост томката) taskimage
+5.в браузере ввести
+http://localhost:8080/task/
+
